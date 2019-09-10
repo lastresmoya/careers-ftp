@@ -116,6 +116,36 @@ section {
   }
 }
 
+.team-category {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border: 2px solid #ffb530;
+  border-radius: 100%;
+  text-align: center;
+}
+
+.team-category-title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 3.75rem;
+  line-height: 40px;
+  font-weight: 700;
+
+  sup {
+    right: 17px;
+  }
+}
+
+.team-category-paragraph {
+  padding-top: 20px;
+  padding-bottom: 0px;
+  color: $gray;
+  font-size: 24px;
+  line-height: 180%;
+  font-weight: 300;
+}
+
 .section-title {
   font-size: 2.5rem;
   text-align: center;
