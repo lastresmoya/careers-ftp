@@ -19,7 +19,7 @@ $gray-700: #495057 !default;
 $gray-800: #343a40 !default;
 $gray-900: #18191d !default;
 $black: #000 !default;
-$gray: #3d3d3d !default;
+$gray: #4c4c4c !default;
 $dark-gray: #979797 !default;
 
 $grays: () !default;
@@ -39,12 +39,13 @@ $grays: map-merge(
 );
 
 $dark-blue: #141618 !default;
+$blue: #1c4c8e !default;
 $indigo: #03a8ce !default;
-$purple: #5f49ea !default;
+$purple: #1d2350 !default;
 $pink: #ef476f !default;
 $red: #dc3545 !default;
 $orange: #fd7e14 !default;
-$yellow: #ffc107 !default;
+$yellow: #f5b74e !default;
 $green: #64c8bc !default;
 $green-mate: #64c8bc !default;
 $teal: #20c997 !default;
@@ -55,6 +56,7 @@ $colors: () !default;
 $colors: map-merge(
   (
     "dark-blue": $dark-blue,
+    "blue": $blue,
     "black": $black,
     "indigo": $indigo,
     "purple": $purple,
@@ -75,8 +77,8 @@ $colors: map-merge(
   $colors
 );
 
-$primary: $green-mate !default;
-$secondary: $indigo !default;
+$primary: $blue !default;
+$secondary: $yellow !default;
 $success: $green !default;
 $info: $cyan !default;
 $warning: $yellow !default;
@@ -266,7 +268,7 @@ $font-size-sm: ($font-size-base * 0.875) !default;
 
 $font-weight-light: 300 !default;
 $font-weight-normal: 400 !default;
-$font-weight-bold: 500 !default;
+$font-weight-bold: 700 !default;
 
 $font-weight-base: $font-weight-light !default;
 $line-height-base: 1.5 !default;
