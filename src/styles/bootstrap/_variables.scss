@@ -9,7 +9,7 @@
 
 // stylelint-disable
 $white: #fff !default;
-$gray-100: #f8f9fa !default;
+$gray-100: #fbfbfb !default;
 $gray-200: #e9ecef !default;
 $gray-300: #dee2e6 !default;
 $gray-400: #ced4da !default;
@@ -171,8 +171,8 @@ $sizes: (
 // Settings for the `<body>` element.
 
 // $body-bg:                   $white !default;
-$body-bg: $dark !default;
-$body-color: $white !default;
+$body-bg: $white !default;
+$body-color: $dark !default;
 
 // Links
 //
