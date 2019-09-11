@@ -165,13 +165,15 @@ section {
 }
 
 .footer {
+  background-image: linear-gradient(
+    157deg,
+    #004c97,
+    rgba(29, 77, 142, 1) 65%,
+    rgba(0, 153, 255, 1) 124%
+  );
   &-top-divider {
     background-image: linear-gradient(97deg, #2f76b4, #044d95);
     height: 30px;
-  }
-
-  .social-icon-container {
-    margin-bottom: 3.6rem;
   }
 }
 
@@ -322,7 +324,7 @@ section {
   background-image: url("./images/growWithUs/circle-bg.png");
   background-repeat: no-repeat;
   background-position: top center;
-  background-position-y: 50vh;
+  background-position-y: 80vh;
   background-size: cover;
 }
 
@@ -386,6 +388,10 @@ section {
       }
     }
   }
+
+  .section-grow {
+    background-position-y: 50vh;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -427,6 +433,12 @@ section {
           width: 150px;
         }
       }
+    }
+  }
+
+  .footer {
+    .social-icon-container {
+      margin-bottom: 3.6rem;
     }
   }
 }
