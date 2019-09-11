@@ -178,6 +178,8 @@ section {
 }
 
 .navbar {
+  background-image: linear-gradient(45deg, $primary, #3e91ce);
+  z-index: 2;
   &-container {
     background-image: linear-gradient(45deg, $primary, #3e91ce);
     height: 88px;
@@ -202,6 +204,7 @@ section {
   }
   .custom-rounded-pill {
     border-radius: 50rem !important;
+    width: 200px;
     a {
       color: $black !important;
       font-weight: bold;
@@ -406,6 +409,14 @@ section {
 
     &-description {
       margin-left: 90px;
+    }
+  }
+
+  .navbar {
+    background-image: none;
+
+    .custom-rounded-pill {
+      width: initial;
     }
   }
 
