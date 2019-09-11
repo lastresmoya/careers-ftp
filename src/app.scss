@@ -297,6 +297,14 @@ section {
   }
 }
 
+.section-grow {
+  background-image: url("./images/growWithUs/circle-bg.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-position-y: 50vh;
+  background-size: cover;
+}
+
 .select-style {
   border-radius: 3px;
   overflow: hidden;
