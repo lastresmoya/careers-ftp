@@ -15,7 +15,17 @@
   box-sizing: border-box;
 }
 
-body {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+li,
+a,
+span,
+small {
   font-family: "Robot", sans-serif !important;
 }
 
@@ -46,7 +56,7 @@ p {
 }
 
 section {
-  padding: 60px 0;
+  padding: 40px 0;
 }
 
 .apply-search {
@@ -222,6 +232,28 @@ section {
   }
 }
 
+.section-openings {
+  .card-opening {
+    min-height: 490px;
+  }
+
+  .nav-pills {
+    .nav-link {
+      border-radius: 50rem !important;
+      font-size: 1.1rem;
+      font-family: "Roboto", sans-serif;
+      padding: 2px 0;
+      text-align: center;
+      text-transform: uppercase;
+      width: 200px;
+
+      &.active {
+        background-color: #4aa4d2;
+      }
+    }
+  }
+}
+
 .select-style {
   border-radius: 3px;
   overflow: hidden;
@@ -251,11 +283,16 @@ section {
 }
 
 @media screen and (min-width: 768px) {
+  section {
+    padding: 60px 0;
+  }
+
   .card-large {
     min-height: 600px;
   }
 
   .section-career {
+    margin-bottom: 163px;
     .card-career {
       position: absolute;
       top: -50px;
@@ -303,6 +340,12 @@ section {
 @media screen and (min-width: 1450px) {
   .card-large {
     min-height: 530px;
+  }
+
+  .section-openings {
+    .card-opening {
+      min-height: 550px;
+    }
   }
 }
 
