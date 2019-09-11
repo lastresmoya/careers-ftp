@@ -59,6 +59,15 @@ section {
   padding: 40px 0;
 }
 
+.input-group .form-control {
+  color: $gray;
+  font-size: 0.9rem;
+  &::placeholder {
+    color: #b6b6b6;
+    font-weight: 500;
+  }
+}
+
 .apply-search {
   background: rgba(25, 65, 123, 0.85);
   border-radius: 8px;
@@ -383,6 +392,19 @@ section {
       }
       &-image {
         width: 35%;
+      }
+    }
+  }
+
+  .section-newsletter {
+    .newsletter-form {
+      .input-group {
+        height: 40px;
+        width: 60%;
+
+        &-submit {
+          width: 150px;
+        }
       }
     }
   }
